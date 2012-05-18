@@ -1,0 +1,46 @@
+<html>
+
+<head>
+	<script src="jquery-1.7.2.js" type="text/javascript" charset="utf-8"></script>
+	<script src="jquery.callout.js" type="text/javascript" charset="utf-8"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$("#default").callout();
+			
+			$("#calloutOptions, .callout").callout({
+				'bgColor' : 'red',
+				'borderColor' : 'gray',
+				'textColor' : 'black'
+			});
+			
+		});
+	</script>
+	
+<link rel="stylesheet" type="text/css" href="jquery.callout.css">
+
+</head>
+
+<body bgcolor=white>
+	
+	<div id="default">
+		default callout
+	</div>
+	
+	<br>
+	
+	<div id="calloutOptions">
+		callout with options
+	</div>
+	
+	<br>
+	
+
+	<br><hr><br>
+	
+	<input type="text">
+	<div class="callout" style="position:relative; top:-34px; left:-34px">1	</div>
+	
+</body>
+</html>

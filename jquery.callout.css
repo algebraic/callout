@@ -1,0 +1,59 @@
+.jqueryCallout {
+    margin: 18px 0;
+    padding: 6px;
+    background-color: white;
+	display:inline-block;
+	border: 1px solid black;
+	z-index:100px;
+	color:black;
+	font-weight:normal;
+	/* rounded corners */
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+.jqueryCallout_arrow {
+    position: relative;
+    top: 16px;
+    left: -18px;
+    margin: 0;
+	
+	border-top: 10px solid white;
+	border-left: 10px dotted transparent;
+	border-right: 10px dotted transparent;
+			
+    padding: 0;
+    width: 0;
+    height: 0;
+    /* ie6 height fix */
+    font-size: 0;
+    line-height: 0;
+     /* ie6 transparent fix */
+    _border-right-color: pink;
+    _border-left-color: pink;
+    _filter: chroma(color=pink);
+	z-index:101;
+}
+
+.jqueryCallout_arrowBorder {
+    position: relative;
+    top: 18px;
+    left: 4px;
+    margin: 0;
+	
+	border-top: 12px solid black;
+	border-left: 12px dotted transparent;
+	border-right: 12px dotted transparent;
+			
+    padding: 0;
+    width: 0;
+    height: 0;
+    /* ie6 height fix */
+    font-size: 0;
+    line-height: 0;
+     /* ie6 transparent fix */
+    _border-right-color: pink;
+    _border-left-color: pink;
+    _filter: chroma(color=pink);
+	z-index:99;
+}
